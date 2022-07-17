@@ -1,11 +1,13 @@
 - [Lab-1](./Lab-1/Readme.md)
     - Installation
     - Data types
+
 - [Lab-2](./Lab-2/Readme.md)
     - Data Manipulation - I
         - Format function
         - Use of Index Postion
         - Index function
+
 - [Lab-3](./Lab-3/Readme.md)
     - Data Manipulation - II
         - Take input from user
@@ -48,5 +50,15 @@
             - items() function
             - keys() function
         
+- [Lab-5](./Lab-5/Readme.md)
+    - Condition with python
 
-- [Lab-5](./Lab-5/Readme.md)    
+- [Lab-6](./Lab-6/Readme.md)
+    - *for* Loop with python
+    - *continue* and *break* keyword
+
+- [Lab-7](./Lab-7/Readme.md)
+    - *while* loop with python
+
+- [Lab-8](./Lab-8/Readme.md)
+    - *function* with python
