@@ -20,6 +20,7 @@
     - Use of readymade module from Terraform registry
 
 - [Lab-5](./Lab-5/Readme.md)
+    - State file in Terraform
     - Workspace in Terraform
     - Local vs Remote Workspace
 
@@ -28,3 +29,7 @@
     - Use of data block
 
 - [Lab-7](./Lab-7/Readme.md)
+    - Data source in Terraform
+
+- [Lab-8](./Lab-7/Readme.md)
+    - Import resources in Terraform
