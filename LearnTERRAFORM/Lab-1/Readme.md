@@ -103,3 +103,9 @@
 We need to install AWS CLI and then need to configure access and secret key.
 
 Refer [AWS CLI installation document](/PrepareSystem/install-aws-cli.md)
+
+------
+
+Back to [LearnTerraform](../Readme.md)
+
+Go to [Lab-2](../Lab-2/Readme.md)

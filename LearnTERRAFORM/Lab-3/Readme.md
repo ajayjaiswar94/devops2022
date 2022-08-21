@@ -45,3 +45,9 @@ Refer [terraform.tf](./terraform.tf)
 Refer [prvider.tf](./provider.tf)
 Refer [variable.tf](./variable.tf)
 Refer [web.tf](./web.tf)     
+
+------
+
+Back to [LearnTerraform](../Readme.md)
+
+Go to [Lab-4](../Lab-4/Readme.md)

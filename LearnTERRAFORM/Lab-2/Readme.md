@@ -53,3 +53,9 @@ Lock files is basically a logic to save us from accidental changes which can bre
 
 - Functions – Terraform has some build in function which help to write code.
 - Variables – Terraform allow us to use variable which help to write generic code.
+
+------
+
+Back to [LearnTerraform](../Readme.md)
+
+Go to [Lab-3](../Lab-3/Readme.md)
