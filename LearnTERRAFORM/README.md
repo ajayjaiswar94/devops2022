@@ -26,7 +26,6 @@
 
 - [Lab-6](./Lab-6/Readme.md)
     - Use of local block
-    - Use of data block
 
 - [Lab-7](./Lab-7/Readme.md)
     - Data source in Terraform

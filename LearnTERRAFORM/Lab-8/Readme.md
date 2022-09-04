@@ -40,6 +40,7 @@ Let's do it practically to understand better.
 
 - Now execute terraform plan again. This time it will say change for resource. Go for terraform apply and accept the change.
 
+        terraform init
         terraform plan
 
 ![terraform-import-5](../../images/terraform-import-ec2-5.PNG)
