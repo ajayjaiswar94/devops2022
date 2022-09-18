@@ -28,3 +28,9 @@
     - Ansible facts
     - Ansible condition
     - Ansible error handling
+    - Ansible ignore error
+
+- [Lab-7](./Lab-7/Readme.md)
+    - Ansible vault
+    - Ansible with SSM service of AWS
+    - Dynamic Inventory

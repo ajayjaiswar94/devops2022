@@ -37,7 +37,7 @@ For more information you can refer https://docs.ansible.com/ansible/latest/user_
 
 ------
 
-### Understand *host_vars* direcotry stucture
+### Understand *host_vars* direcotry structure
 
 **host_vars** directory is a place where you can define variable for each host. Mostly it is a prefered location to define a variable which is a unique per server, but you can define a other variables also which that host are going to refer, but then it will be repeatative task. 
 
