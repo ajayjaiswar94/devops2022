@@ -6,6 +6,11 @@
       register: documentroot
       ignore_errors: true
 
+
+    - name : "show variable"
+      debug:
+        var: documentroot
+        
     - name : "Create document root directory"
       command: mkdir /opt/htdocs
       when: documentroot.rc != 0

@@ -144,6 +144,17 @@ Let's try dynamic inventory. Spin 4 instance's and give below tags to them.
 
 Create **inventory-aws_ec2.yaml** file. Refer [inventory1-aws_ec2.yaml](./Lab/inventory1-aws_ec2.yaml)
 
+You need to install boto3 python module and it require pip command.
+
+        yum install pip
+        pip install boto3
+
+You also need to configure aws access and secret key for authentication. 
+
+Refer [create-aim-user](../../PrepareSystem/create-iam-user.md) to create IAM user.
+
+Refer [aws-configure](../../PrepareSystem/install-aws-cli.md) to configure access/secret key.
+
 Execute below commnd to see what this inventory file has.
 
         ansible-inventory --graph -i inventory1-aws_ec2.yml
