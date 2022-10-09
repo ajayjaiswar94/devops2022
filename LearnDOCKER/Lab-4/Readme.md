@@ -21,7 +21,7 @@ Create new network called **flasknet**
 
     docker network create flasknet
     docker network ls
-    docker inspect network flasknet
+    docker inspect flasknet
 
 Inspect is command to get complete detail about any docker componenent.
 
@@ -45,7 +45,7 @@ Lets check our application. Open url http://DOCKERHOSTIP:5000 in browser, and re
 
 Execute below command and check it's output.
 
-    docker inspect container app
+    docker inspect app
 
 ------
 

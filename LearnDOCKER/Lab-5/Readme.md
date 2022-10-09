@@ -7,7 +7,7 @@ We will create one volume and will use that to make our redis database persisten
     docker volume ls
     docker volume create redisdata
     docker volume ls
-    docker inspect volume redisdata
+    docker inspect redisdata
 
 Now run our redis container with a newly created volume.
 
