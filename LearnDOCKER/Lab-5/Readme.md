@@ -11,14 +11,14 @@ We will create one volume and will use that to make our redis database persisten
 
 Now run our redis container with a newly created volume.
 
-    docker container run -itd --rm --name redis --net flaskNet -p 6379:6379 -v redisdata:/data redis
+    docker container run -itd --rm --name redis --net flashnet -p 6379:6379 -v redisdata:/data redis
 
 We have used another new parameter **-v** to mount volume on particular path. Left side of colon is the volume name and right side of colon is path inside container where volume will get mounted.
 
 Build application docker image and run it.
 
     docker image build -t app:v3 .
-    docker container run -itd --rm --name app --net flaskNet -p 5000:5000 app:v3
+    docker container run -itd --rm --name app --net flashnet -p 5000:5000 app:v3
 
 Now open browser and access our application with url http://DOCKERHOSTIP:5000
 
@@ -30,7 +30,7 @@ Now note down number, and stop redis container.
 
 Refresh page it will give error as redis container is down. Start redis container again, wait for a while and refresh page only once.
 
-    docker container run -itd --rm --name redis --net flaskNet -p 6379:6379 -v redisdata:/data redis
+    docker container run -itd --rm --name redis --net flashnet -p 6379:6379 -v redisdata:/data redis
 
 You will find visitor number started from where you left last time.
 
