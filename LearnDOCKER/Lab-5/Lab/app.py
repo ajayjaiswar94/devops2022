@@ -9,4 +9,4 @@ redis = FlaskRedis(app)
 
 @app.route('/')
 def counter():
-    return "Visitor number " + str(redis.incr('web2_counter'))
+    return "Visitor number " + str(redis.incr('counter'))

@@ -1,3 +1,16 @@
+## Why Docker
+
+Docker is known for platform for the microservices. To understand why Docker or any other microservice platform is important now a days, first we need to understand what is microservices and Monolithic application.
+
+### Monolithic applications
+If all the functionalities of a project exist in a single codebase, then that application is known as a monolithic application. We all must have designed a monolithic application in our lives in which we were given a problem statement and were asked to design a system with various functionalities. We design our application in various layers like presentation, service, and persistence and then deploy that codebase as a single jar/war file. This is nothing but a monolithic application, where “mono” represents the single codebase containing all the required functionalities. 
+
+### Microservices 
+
+It is an architectural development style in which the application is made up of smaller services that handle a small portion of the functionality and data by communicating with each other directly using lightweight protocols like HTTP. According to Sam Newman, “Microservices are the small services that work together.” 
+
+![docker-monolithic-microservices](../../images/docker-microservices.png)
+
 ## What is DOCKER
 
 Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
