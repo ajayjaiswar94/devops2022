@@ -61,7 +61,7 @@ Conclusion - The ENTRYPOINT specifies a command that will always be executed whe
 
 If by mistake original docker image get deleted and we don't have backup, but have running container from deleted docker image, in this case we can create image from running container.
 
-docker commit CONTAINERNAME TAGNAME
+    docker commit CONTAINERNAME TAGNAME
 
 - Copy data to container
 
@@ -89,6 +89,7 @@ i.e. lot of times, images are downloaded but they are not getting used by any co
 - Use of filter to get specific object
 
     docker ps --filter "name=calcIndex"
+    
     docker ps --filter volume=/data
 
 - Information of docker
